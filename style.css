@@ -1,5 +1,18 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+  body{
+    margin: 10px 120px;
+  }
+  /* common button */
+  .common-btn{
+ border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+border: none;
+  }
 nav{
     display: flex;
     justify-content: space-between;
@@ -44,10 +57,9 @@ font-weight: 400;
     background-repeat:no-repeat ;
     background-size: cover;
     border-radius: 16px;
-height: 500px;
-flex-shrink: 0;
+    height: 500px;
 }
-.heading-title{
+.tour-heading{
 color: #FFF;
 font-size: 64px;
 font-weight: 800;
@@ -83,6 +95,12 @@ padding: 30px 240px;
     width: 174px;
 height: 52px;
 }
+.find{
+    border-radius: 8px;
+background: #FF5400;
+padding-left: 5px;
+padding-right: 5px;
+}
 .select input{
 border-radius: 8px;
 background: #FFF;
@@ -97,9 +115,103 @@ background: #FFF;
 padding-left: 5px;
 padding-right: 5px;
 }
-.find{
-    border-radius: 8px;
-background: #FF5400;
-padding-left: 5px;
-padding-right: 5px;
+/* Tour section */
+.tour{
+    display: flex;
+    gap: 50px;
+    margin-top: 120px;
+}
+.heading-title{
+color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1em;
+font-weight: 400;
+}
+.tour ul>li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.tour-imge img{
+    width: 100%;
+    height: 100%;
+}
+/* destination -section */
+.Destination-description{
+    text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding: 30px 240px;
+}
+.imge-container{
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.name{
+    position: relative;
+}
+.inner{
+    color:#FFF;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+/* choose us section */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.card{
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.card-2, .card-3{
+ border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-2 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-3 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.card-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 55px 20px 15px;
 }
