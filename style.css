@@ -13,42 +13,45 @@ font-size: 20px;
 font-weight: 800;
 border: none;
   }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav img{
-    width: 50px;
-    height: 50px;
-}
-.nav-title{
-    display: flex;
-   gap: 25px;
-    align-items: center;
-}
-.company{
-    color: #131318;
-    font-size: 36px;
-    font-weight: 800;
-}
-.company span,nav .home{
-    color: #FF5400;
-}
-nav ul{
-    list-style: none;
-   display: flex;
-}
-
-nav ul a{
-text-decoration: none;
- margin-right: 25px;
- color: var(--Dark-02, #424247);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-
-}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img{
+        width: 50px;
+        height: 50px;
+    }
+    .nav-title{
+        display: flex;
+       gap: 25px;
+        align-items: center;
+    }
+    .company{
+        color: #131318;
+        font-size: 36px;
+        font-weight: 800;
+    }
+    .company span,nav .home{
+        color: #FF5400;
+    }
+    nav ul{
+        list-style: none;
+       display: flex;
+    }
+    
+    nav ul a{
+    text-decoration: none;
+     margin-right: 25px;
+     color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    
+    }
+    .there-bar{
+        display: none;
+    }
 /* heading section */
 .heading{
     text-align: center;
@@ -116,105 +119,109 @@ padding-left: 5px;
 padding-right: 5px;
 }
 /* Tour section */
-.tour{
-    display: flex;
-    gap: 50px;
-    margin-top: 120px;
-}
-.heading-title{
-color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-}
-.tour-description{
-    color: rgba(19, 19, 24, 0.70);
-font-size: 1em;
-font-weight: 400;
-}
-.tour, .perfect-place ul li{
-    color: rgba(19, 19, 24, 0.70);
+
+    .tour{
+        display: flex;
+        gap: 50px;
+        margin-top: 120px;
+    }
+    .heading-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    }
+    .tour-description{
+        color: rgba(19, 19, 24, 0.70);
     font-size: 1em;
     font-weight: 400;
-    margin-top: 10px;
-}
-
-.tour-imge img{
-    width: 100%;
-    height: 100%;
-}
+    }
+    .tour, .perfect-place ul li{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 1em;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    
+    .tour-imge img{
+        width: 100%;
+        height: 100%;
+    }
 /* destination -section */
-.Destination-description{
-    text-align: center;
-font-size: 16px;
-font-weight: 400;
-padding: 30px 240px;
-}
-.imge-container{
-   text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-.row{
-    display: flex;
-    justify-content: center;
-    gap: 14px;
-}
-.name{
-    position: relative;
-}
-.inner{
-    color:#FFF;
-    position: absolute;
-    left: 40%;
-    top: 50%;
-}
-/* choose us section */
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 25px;
-}
-.card{
-border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-}
-.card-2, .card-3{
- border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-}
-.card img{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.card-2 img{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.card-3 img{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.card-title{
-    color: #131318;
-    font-size: 24px;
-    font-weight: 800;
-
-}
-.card-description{
-    color: #5A5A5D;
+    .destination{
+        
+    }
+    .Destination-description{
+        text-align: center;
     font-size: 16px;
     font-weight: 400;
-    padding: 15px 55px 20px 15px;
-}
+    padding: 30px 240px;
+    }
+    .imge-container{
+       text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+    }
+    .name{
+        position: relative;
+    }
+    .inner{
+        color:#FFF;
+        position: absolute;
+        left: 40%;
+        top: 50%;
+    }
+/* choose us section */
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+    }
+    .card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    }
+    .card-2, .card-3{
+     border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    }
+    .card img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .card-2 img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .card-3 img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .card-title{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+    
+    }
+    .card-description{
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 55px 20px 15px;
+    }
 /* article-information */
 .article-information{
     display: flex;
@@ -222,10 +229,7 @@ background: rgba(41, 206, 246, 0.05);
     background-color: #EBF0F4;
     margin-top: 45px;
     border-radius: 5px;
-}
-.news-article{
-    width: 700px;
-    height: 600px;
+    padding: 20px 20px;
 }
 .article-colomn{
     display: flex;
@@ -234,6 +238,9 @@ background: rgba(41, 206, 246, 0.05);
 .article-img img{
     border-radius: 50%;
 }
+.article-title{
+    font-size: 22px;
+    }
 .information{
 margin-top: 10px;
 background-color: white;
@@ -247,38 +254,7 @@ border-radius: 5px;
 /* booking section */
 .booking-container{
     margin-top: 45px;
-}
-.booking{
-    position: relative;
-}
-.booking-inner{
-    border-radius: 16px;
-border: 2px solid #FFF;
-background: rgba(255, 255, 255, 0.80);
-backdrop-filter: blur(2.5px);
-width: 579px;
-height: 389px;
-position: absolute;
-top: 15%;
-left: 45%;
-}
-.booking-title{
-    color: #131318;
-    font-size: 24px;
-    font-weight: 800;
-    padding-left: 25px;
-}
-.booking-description{
-    color: #5A5A5D;
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: 25px;
-}
-.price{
-    color: #FF5400;
-font-size: 20px;
-font-weight: 800;
-padding-left: 25px;
+    
 }
 .booking-nav{
     text-align: center;
@@ -302,6 +278,39 @@ padding-left: 25px;
 font-size: 16px;
 font-weight: 400;
 }
+.booking{
+    position: relative;
+}
+.booking-inner{
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+position: absolute;
+top: 15%;
+left: 45%;
+}
+.booking-title{
+    color: #131318;
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 25px;
+}
+.booking-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+.price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+padding-left: 25px;
+}
+
 .see-all{
     display: flex;
     justify-content: center;
@@ -398,4 +407,137 @@ padding-top: 120px;
 .copyright-text{
     margin-top: 25px;
     text-align: center;
+}
+
+/* responsive section */
+/* small devise */
+@media screen and ( max-width:576px){
+    body{
+        margin: 5px 7px;
+      }
+     .there-bar{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    .tour-heading{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 800;
+        padding-top:0px;
+        }
+    .heading-description{
+        font-size: 16px;
+        padding: 5px 15px;
+        }
+        .find-area{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1px;
+            margin: 0px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.30);
+        }
+        .select input{
+            height: 42px;
+            gap: 0px;
+            }
+
+            /* tour section */
+            .tour{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            /* destination section */
+
+            .Destination-description{
+                text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            padding:5px 10px;
+            }
+            .row{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 14px;
+            }
+            .row img{
+               width: 100%;
+               height: 100%;
+            }
+            /*why Choose Us  */
+            .card-container{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 5px;
+            }
+            /* article section */
+            .article-information{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: #EBF0F4;
+                margin-top: 15px;
+                border-radius: 5px;
+                padding: 10px;
+            }
+          /* booking section */
+        .booking img{
+            width: 100%;
+            height: 500px;
+         }
+        .booking-inner{
+         width: 335px;
+          height: 300px;
+        position: absolute;
+        bottom: 0.01%;
+        left: 5%;
+        }
+        /* place section */
+        .place{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+            
+        }
+        .place-video video{
+            /* width: 335px;
+            height: 200px; */
+            width: 100%;
+            height: 100%;
+        }
+        /* Newsletter-section */
+        .Newsletter-section{
+            flex-direction: column;
+            gap: 25px;
+        }
+        .Newsletter-img img{
+            width: 100%;
+            height: 100%;
+        }
+        .discount-banner{
+            position: absolute;
+            top: 40%;
+            left: 45%;
+            text-align: center;
+            color: #FFF;
+            border-radius: 16px;
+        background: #FF5400;
+        width: 224px;
+        height: 120px;
+        transform: rotate(-19.628deg);
+        }
+        /* footer section */
+        .footer-description{
+           padding: 10px;
+        }
+        .social-link ul li img{
+            width: 50px;
+            height: 50px;
+        }
 }
