@@ -24,7 +24,7 @@ nav img{
 }
 .nav-title{
     display: flex;
-    justify-content: space-between;
+   gap: 25px;
     align-items: center;
 }
 .company{
@@ -132,11 +132,11 @@ font-weight: 800;
 font-size: 1em;
 font-weight: 400;
 }
-.tour ul>li{
+.tour, .perfect-place ul li{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1em;
     font-weight: 400;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 .tour-imge img{
@@ -214,4 +214,188 @@ background: rgba(41, 206, 246, 0.05);
     font-size: 16px;
     font-weight: 400;
     padding: 15px 55px 20px 15px;
+}
+/* article-information */
+.article-information{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBF0F4;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+.news-article{
+    width: 700px;
+    height: 600px;
+}
+.article-colomn{
+    display: flex;
+    justify-content: space-between;
+}
+.article-img img{
+    border-radius: 50%;
+}
+.information{
+margin-top: 10px;
+background-color: white;
+margin-right: 10px;
+border-radius: 5px;
+}
+.information-title{
+    color: #007bff;
+    font-size: 25px;
+}
+/* booking section */
+.booking-container{
+    margin-top: 45px;
+}
+.booking{
+    position: relative;
+}
+.booking-inner{
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+position: absolute;
+top: 15%;
+left: 45%;
+}
+.booking-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 25px;
+}
+.booking-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+.price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+padding-left: 25px;
+}
+.booking-nav{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    
+}
+.booking-nav>ul li{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item h4{
+    padding: 15px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+.see-all{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+}
+/* perfect-section */
+.place{
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+}
+/* news-section */
+.Newsletter-section{
+    display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.Newsletter-img{
+    position: relative;
+}
+.discount-banner{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    text-align: center;
+    color: #FFF;
+    border-radius: 16px;
+background: #FF5400;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input-place{
+width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+font-weight: 400;
+padding: 10px  10px 10px ;
+}
+.subscribe{
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+border-radius: 8px;
+border: none;
+background: #FF5400;
+width: 393px;
+height: 52px;
+}
+/* footer section*/
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 45px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+padding-top: 120px;
+}
+.footer-description{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+   padding: 10px 200px;
+}
+.social-link ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 25px;
+  
+}
+.social-link ul li{
+    margin-left: 45px;
+   
+}
+.social-link ul li img{
+    width: 70px;
+    height: 70px;
+}
+.copyright-text{
+    margin-top: 25px;
+    text-align: center;
 }
